@@ -1,5 +1,6 @@
 declare var require: any;
 var app_template = require('./App.html');
+require('./App.css');
 import * as Vue from 'vue'
 import Component from 'vue-class-component'
 

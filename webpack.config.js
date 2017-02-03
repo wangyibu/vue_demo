@@ -10,6 +10,7 @@ module.exports = {
   },
   module: {
     loaders: [
+      { test: /\.css$/, loader: 'style!css' },
       { test: /\.vue$/, loader: 'vue-loader' },
       { test: /\.html$/, loader: 'html' },
       { test: /\.ts$/, loader: 'ts-loader', exclude: /node_modules/ },
